@@ -1,0 +1,228 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Styles */
+header {
+  background-color: black;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header, section, footer {
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  width: 150px; /* Adjust logo size */
+}
+
+/* Navigation Menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white; /* White text for links */
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: beige; /* Change color on hover */
+  text-decoration: underline; /* Optional underline on hover */
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to bottom, black, blue);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  margin: 0; /* Remove any margins */
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: black;
+}
+
+/* Section Styles */
+section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: white;
+  margin: 20px 0;
+}
+
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+section p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Projects Section */
+.project {
+  display: inline-block;
+  text-align: left;
+  margin: 20px;
+  max-width: 300px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.project p {
+  color: #555;
+}
+
+/* Team Section */
+.team-member {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.team-member p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Contact Section */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background-color: black;
+}
+
+/* Footer Styles */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: white;
+  font-size: 1rem;
+}
+
+footer ul li a:hover {
+  color: beige;
+  text-decoration: underline;
+}
